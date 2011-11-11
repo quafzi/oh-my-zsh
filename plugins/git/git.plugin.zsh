@@ -14,8 +14,8 @@ compdef _git gl=git-pull
 alias gup='git pull --rebase'
 compdef _git gup=git-fetch
 alias gp='git push'
+alias gdf='git diff'
 compdef _git gp=git-push
-alias gd='git diff'
 gdv() { git diff -w "$@" | view - }
 compdef _git gdv=git-diff
 alias gdt='git difftool'
